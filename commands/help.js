@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
-   Version: *${settings.version || '3.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   *🤖 ${settings.botName || '*YEHAZZ MD V1*'}*  
+   Version: *${settings.version || '1.0.0'}*
+   by ${settings.botOwner || 'Yehan Pabasara'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
@@ -103,16 +103,6 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝  
 
 ╔═══════════════════╗
-🖼️ *Pies Commands*:
-║ ➤ .pies <country>
-║ ➤ .china 
-║ ➤ .indonesia 
-║ ➤ .japan 
-║ ➤ .korea 
-║ ➤ .hijab
-╚═══════════════════╝
-
-╔═══════════════════╗
 🎮 *Game Commands*:
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
@@ -130,21 +120,6 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .imagine <prompt>
 ║ ➤ .flux <prompt>
 ║ ➤ .sora <prompt>
-╚═══════════════════╝
-
-╔═══════════════════╗
-🎯 *Fun Commands*:
-║ ➤ .compliment @user
-║ ➤ .insult @user
-║ ➤ .flirt 
-║ ➤ .shayari
-║ ➤ .goodnight
-║ ➤ .roseday
-║ ➤ .character @user
-║ ➤ .wasted @user
-║ ➤ .ship @user
-║ ➤ .simp @user
-║ ➤ .stupid @user [text]
 ╚═══════════════════╝
 
 ╔═══════════════════╗
@@ -179,41 +154,6 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .tiktok <link>
 ║ ➤ .video <song name>
 ║ ➤ .ytmp4 <Link>
-╚═══════════════════╝
-
-╔═══════════════════╗
-🧩 *MISC*:
-║ ➤ .heart
-║ ➤ .horny
-║ ➤ .circle
-║ ➤ .lgbt
-║ ➤ .lolice
-║ ➤ .its-so-stupid
-║ ➤ .namecard 
-║ ➤ .oogway
-║ ➤ .tweet
-║ ➤ .ytcomment 
-║ ➤ .comrade 
-║ ➤ .gay 
-║ ➤ .glass 
-║ ➤ .jail 
-║ ➤ .passed 
-║ ➤ .triggered
-╚═══════════════════╝
-
-╔═══════════════════╗
-🖼️ *ANIME*:
-║ ➤ .neko
-║ ➤ .waifu
-║ ➤ .loli
-║ ➤ .nom 
-║ ➤ .poke 
-║ ➤ .cry 
-║ ➤ .kiss 
-║ ➤ .pat 
-║ ➤ .hug 
-║ ➤ .wink 
-║ ➤ .facepalm 
 ╚═══════════════════╝
 
 ╔═══════════════════╗
